@@ -78,6 +78,7 @@ Our best model was Random Forest with all features included, achieving a classif
 
 
   -  Results for Naive Bayes
+    
      ![Screenshot 2025-05-02 141054](https://github.com/user-attachments/assets/e209299a-f2dd-46f2-aad0-476acdfe275c)
      ![Screenshot 2025-05-02 141110](https://github.com/user-attachments/assets/0b54fa9a-1f06-46af-9e18-35eb17adf7f3)
      ![Screenshot 2025-05-02 141122](https://github.com/user-attachments/assets/15010a19-b813-483f-9604-b8501857d5be)
@@ -94,10 +95,10 @@ Our best model was Random Forest with all features included, achieving a classif
 
 
      - But Naive Bayes:
+       -
+       -
       ![Screenshot 2025-05-02 142033](https://github.com/user-attachments/assets/fdfa1cbe-78a3-4208-8da5-e641e7b6b456)
       - The scores are all down compared to when there was a full set of features.
-     
-
       ![Screenshot 2025-05-02 142051](https://github.com/user-attachments/assets/1102b658-d40d-49f4-82e4-9ca3992f6823)
        - This shows the increase the amount of incorrectly chosen edible mushrooms in the 
          testing, a sign of how overly cautious the model was getting
