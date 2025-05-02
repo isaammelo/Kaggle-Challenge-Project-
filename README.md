@@ -1,5 +1,6 @@
 # Kaggle-Challenge-Project
 Mushroom Classification Using Machine Learning 
+
 - The Mushroom Classification challenge asks us to build a model to safetely predict a mushroom's edibility to potentially save lives.
 
   Overview
@@ -23,7 +24,8 @@ Our best model was Random Forest with all features included, achieving a classif
   - After doing One Hot Encoding, a few features were dropped in a "reduced features" experiment (odor_n, gill-size, odor_f) based on domain knowledge and their model feature importances being higher than all of the other 14 features used.
     
   Data Visualization
-  - ?
+![Screenshot 2025-05-02 132922](https://github.com/user-attachments/assets/4b9ecd5e-26cf-489c-a749-bf88a9eb30d3)
+
 
   Problem Formulation 
   - Input:?
@@ -61,4 +63,21 @@ Our best model was Random Forest with all features included, achieving a classif
   - Investigate certain features and there affects to the model(s).
   - Deploy model in the real world.
 
-  Overview of File in Repository 
+  How To Reproduce Results
+  - Download file
+  - Open using Google Colab or Jupyter Notebook
+  - Ensure you are running the required packages (skikit-learn, pandas, matplotlib).
+  - Load the dataset: mushrooms.csv
+  - preproccessing ?
+ 
+  Overview of File in Repository
+  ?
+
+  Software Setup
+  - pandas
+  - numpy
+  - matplotlib
+  - skikit-learn
+ 
+  Citations
+  - https://www.kaggle.com/datasets/uciml/mushroom-classification
