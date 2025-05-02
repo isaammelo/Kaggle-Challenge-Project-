@@ -94,7 +94,8 @@ Our best model was Random Forest with all features included, achieving a classif
       - Other than the mushrooms it predicted to be poisonous actually being edible increasing than the origina full features, it still remained high.
 
 
-     - But Naive Bayes:
+     - But Naive Bayes
+ 
        ![Screenshot 2025-05-02 142033](https://github.com/user-attachments/assets/fdfa1cbe-78a3-4208-8da5-e641e7b6b456)
        - The scores are all down compared to when there was a full set of features.
        ![Screenshot 2025-05-02 142051](https://github.com/user-attachments/assets/1102b658-d40d-49f4-82e4-9ca3992f6823)
