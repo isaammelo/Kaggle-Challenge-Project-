@@ -75,8 +75,9 @@ Our best model was Random Forest with all features included, achieving a classif
      ![Screenshot 2025-05-02 140342](https://github.com/user-attachments/assets/fff4da7d-9b8a-47c3-bb3f-daf1d424335c)
      ![Screenshot 2025-05-02 140420](https://github.com/user-attachments/assets/0038482c-a591-497e-a0f0-01b6ca196cd1)
       - The graphs are very accurate
-   
-   - Results for Naive Bayes
+
+
+  -  Results for Naive Bayes
      ![Screenshot 2025-05-02 141054](https://github.com/user-attachments/assets/e209299a-f2dd-46f2-aad0-476acdfe275c)
      ![Screenshot 2025-05-02 141110](https://github.com/user-attachments/assets/0b54fa9a-1f06-46af-9e18-35eb17adf7f3)
      ![Screenshot 2025-05-02 141122](https://github.com/user-attachments/assets/15010a19-b813-483f-9604-b8501857d5be)
@@ -90,8 +91,9 @@ Our best model was Random Forest with all features included, achieving a classif
      ![Screenshot 2025-05-02 141844](https://github.com/user-attachments/assets/53e571ad-3d1f-4b26-a697-98adbfc29e6f)
      ![Screenshot 2025-05-02 141940](https://github.com/user-attachments/assets/8e01a8b3-860f-437f-bfbc-532cd374c2d5)
       - Other than the mushrooms it predicted to be poisonous actually being edible increasing than the origina full features, it still remained high.
-     
-      - But Naive Bayes:
+
+
+     - But Naive Bayes:
       ![Screenshot 2025-05-02 142033](https://github.com/user-attachments/assets/fdfa1cbe-78a3-4208-8da5-e641e7b6b456)
       - The scores are all down compared to when there was a full set of features.
      
