@@ -25,6 +25,14 @@ Our best model was Random Forest with all features included, achieving a classif
     
   Data Visualization
 ![Screenshot 2025-05-02 132922](https://github.com/user-attachments/assets/4b9ecd5e-26cf-489c-a749-bf88a9eb30d3)
+![Screenshot 2025-05-02 132959](https://github.com/user-attachments/assets/9f2bb235-529e-4e3a-b962-f9401cdee839)
+![Screenshot 2025-05-02 133034](https://github.com/user-attachments/assets/149771a2-47ca-463c-95e8-1ec03c97853c)
+![Screenshot 2025-05-02 133110](https://github.com/user-attachments/assets/d7b8f34b-d6ea-4c9d-9357-d9c95354b534)
+![Screenshot 2025-05-02 133144](https://github.com/user-attachments/assets/4978b4cc-f940-4053-87cb-8b1ae1e58a6e)
+![Screenshot 2025-05-02 133204](https://github.com/user-attachments/assets/0b9b5dbd-8f5c-477b-ac87-b006e84c6a99)
+![Screenshot 2025-05-02 133233](https://github.com/user-attachments/assets/5e88492d-22cf-488f-be29-1e6d68b572bd)
+![Screenshot 2025-05-02 133302](https://github.com/user-attachments/assets/672ba74e-c439-43e3-9460-e0943fddd0bd)
+![Screenshot 2025-05-02 133343](https://github.com/user-attachments/assets/d522524f-f03f-4af0-80ba-6a7e36592430)
 
 
   Problem Formulation 
