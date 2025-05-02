@@ -22,37 +22,43 @@ Our best model was Random Forest with all features included, achieving a classif
   - One Hot Encoding was used for all of the other features
   - After doing One Hot Encoding, a few features were dropped in a "reduced features" experiment (odor_n, gill-size, odor_f) based on domain knowledge and their model feature importances being higher than all of the other 14 features used.
     
-Data Visualization
+  Data Visualization
   - ?
 
-Problem Formulation 
+  Problem Formulation 
   - Input:?
 
-Models 
-- ?
+  Models 
+  - ?
 
-Hyperparameters 
-- Random Forest:
+  Hyperparameters 
+  - Random Forest:
        - random_state=42
 
-Training
-Packages: pandas, scikit-learn, matplotlib ?
-- Training time was minimal due to dataset size and efficient models. Validation and test evaluations were used to compare model generalization. Feature selection was done after observing feature importances. Confusion matrices and classification reports were generated for all data splits.
+  Training
+  - Packages: pandas, scikit-learn, matplotlib ?
+  - Training time was minimal due to dataset size and efficient models. Validation and test 
+    evaluations were used to compare model generalization. Feature selection was done after 
+    observing feature importances. Confusion matrices and classification reports were generated 
+    for all data splits.
 
   Performance Comparison
   -  ?
  
   Conclusions
   - Random Forest proved to be a highly effective classifier for this particular dataset.
-  - Even after features were removed, the accuracy score still remained high (perhaps indicating some reduancy in the data.
+  - Even after features were removed, the accuracy score still remained high (perhaps indicating 
+    some reduancy in the data.
   - Naive Bayes performed well at first but was not as consistent or accurate as Random Forest.
-  - Overall, these two models proved that the model was at least being cautious as to predicting whether or not a mushroom was edible or poisonous.
+  - Overall, these two models proved that the model was at least being cautious as to predicting 
+    whether or not a mushroom was edible or poisonous.
  
 
- Future Work 
- - Use hyperparameters such as GridSearchCV and RandomizedSearcCV
- - Using other algorithms such as Decision Tree or maybe even more advanced like Gradient Boosting or XGBoost
- - Investigate certain features and there affects to the model(s).
- - Deploy model in the real world.
+  Future Work 
+  - Use hyperparameters such as GridSearchCV and RandomizedSearcCV
+  - Using other algorithms such as Decision Tree or maybe even more advanced like Gradient 
+  Boosting or XGBoost
+  - Investigate certain features and there affects to the model(s).
+  - Deploy model in the real world.
 
-Overview of File in Repository 
+  Overview of File in Repository 
