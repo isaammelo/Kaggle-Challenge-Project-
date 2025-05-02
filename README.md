@@ -36,26 +36,52 @@ Our best model was Random Forest with all features included, achieving a classif
 
   - Each feature has there distriution in relation to either being edible or poisonous using 
   histograms across individual feature values. These were selected based on their initital 
-  visual insights and later used in machine learning. 
+  visual insights and later used in machine learning.
+
   Problem Formulation 
-  - Input: Features such as 
-
+  - Input: Features include: bruises, odor, gill-size, gill-color, stalk-surface-above-ring, 
+  stalk-surface-below-ring,  stalk-color-above-ring, stalk-color-below-ring, and ring-type
+  - Output: Binary labels representing
+         - '0'- Edible
+         - '1'- Poisonous
+    Task type is binary classification problem using supervised machine learning
+    
   Models 
-  - ?
+  - Random Forest: Chosen for its strong perfomances with categorical features and handle 
+  feature interactions that we see here
 
+  - Naive Bayes: Used as a simple baseline due to its speed and effeciency on categorical data 
+
+  - Trained each in full and reduced some features (that will be shown)
+ 
+    
   Hyperparameters 
   - Random Forest:
        - random_state=42
 
   Training
-  - Packages: pandas, scikit-learn, matplotlib ?
+  - Packages: pandas, scikit-learn, matplotlib.pyplot 
   - Training time was minimal due to dataset size and efficient models. Validation and test 
     evaluations were used to compare model generalization. Feature selection was done after 
     observing feature importances. Confusion matrices and classification reports were generated 
     for all data splits.
 
   Performance Comparison
-  -  ?
+  -  The performances will be assessed using the Precision, Recall, F1-Score, and especially the Accuracy.
+  -  Results for Random Forest (training, validation, and testing) 
+    ![Screenshot 2025-05-02 140253](https://github.com/user-attachments/assets/c584227e-1af1-4b4b-bb32-d4e9c25dcae4)
+     ![Screenshot 2025-05-02 140323](https://github.com/user-attachments/assets/3b960cc3-7fda-44b0-852d-7819b33cbbe5)
+      ![Screenshot 2025-05-02 140342](https://github.com/user-attachments/assets/fff4da7d-9b8a-47c3-bb3f-daf1d424335c)
+      ![Screenshot 2025-05-02 140420](https://github.com/user-attachments/assets/0038482c-a591-497e-a0f0-01b6ca196cd1)
+      - The graphs are very accurate
+   - Results for Naive Bayes
+     ![Screenshot 2025-05-02 141054](https://github.com/user-attachments/assets/e209299a-f2dd-46f2-aad0-476acdfe275c)
+     ![Screenshot 2025-05-02 141110](https://github.com/user-attachments/assets/0b54fa9a-1f06-46af-9e18-35eb17adf7f3)
+      ![Screenshot 2025-05-02 141122](https://github.com/user-attachments/assets/15010a19-b813-483f-9604-b8501857d5be)
+      ![Screenshot 2025-05-02 141212](https://github.com/user-attachments/assets/9ce094cc-68f1-4d5a-86ae-d48a140cc955)
+
+
+
  
   Conclusions
   - Random Forest proved to be a highly effective classifier for this particular dataset.
@@ -88,6 +114,6 @@ Our best model was Random Forest with all features included, achieving a classif
   - numpy
   - matplotlib
   - skikit-learn
- 
+ ? 
   Citations
   - https://www.kaggle.com/datasets/uciml/mushroom-classification
