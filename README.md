@@ -79,6 +79,8 @@ Our best model was Random Forest with all features included, achieving a classif
      ![Screenshot 2025-05-02 141110](https://github.com/user-attachments/assets/0b54fa9a-1f06-46af-9e18-35eb17adf7f3)
       ![Screenshot 2025-05-02 141122](https://github.com/user-attachments/assets/15010a19-b813-483f-9604-b8501857d5be)
       ![Screenshot 2025-05-02 141212](https://github.com/user-attachments/assets/9ce094cc-68f1-4d5a-86ae-d48a140cc955)
+     - The graphs were both very accurate, which raised concerns. The features used had to be evaluated again to make sure some were not causing heavy bias. These were the results
+       ![Screenshot 2025-05-02 141514](https://github.com/user-attachments/assets/f1e2960d-9240-4bac-8070-3be264ed947c)
 
 
 
