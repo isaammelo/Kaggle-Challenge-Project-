@@ -1,7 +1,6 @@
-# Kaggle-Challenge-Project
-Name: Isaam Melo 
+# Mushroom Classification Using Machine Learning 
 
-Mushroom Classification Using Machine Learning 
+Name: Isaam Melo 
 
 - The Mushroom Classification challenge asks us to build a model to safetely predict a mushroom's edibility to potentially save lives.
 
