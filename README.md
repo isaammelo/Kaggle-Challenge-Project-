@@ -121,7 +121,7 @@ Our best model was Random Forest with all features included, achieving a classif
   - Deploy model in the real world.
 
   How To Reproduce Results
-  - Download file
+  - Download file from: https://www.kaggle.com/datasets/uciml/mushroom-classification
   - Open using Google Colab or Jupyter Notebook
   - Ensure you are running the required packages (skikit-learn, pandas, matplotlib).
   - Load the dataset: mushrooms.csv
