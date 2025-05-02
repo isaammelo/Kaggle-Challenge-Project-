@@ -81,16 +81,28 @@ Our best model was Random Forest with all features included, achieving a classif
       ![Screenshot 2025-05-02 141212](https://github.com/user-attachments/assets/9ce094cc-68f1-4d5a-86ae-d48a140cc955)
      - The graphs were both very accurate, which raised concerns. The features used had to be evaluated again to make sure some were not causing heavy bias. These were the results
        ![Screenshot 2025-05-02 141514](https://github.com/user-attachments/assets/f1e2960d-9240-4bac-8070-3be264ed947c)
-
-
-
+    - odor_n, gill-size, odor_f were really high in featuer importance compared to others, so 
+     they were dropped and the models were revaluated after.
+    - The results of the Random Forest were near the same:
+      ![Screenshot 2025-05-02 141844](https://github.com/user-attachments/assets/53e571ad-3d1f-4b26-a697-98adbfc29e6f)
+      ![Screenshot 2025-05-02 141940](https://github.com/user-attachments/assets/8e01a8b3-860f-437f-bfbc-532cd374c2d5)
+      - Other than the mushrooms it predicted to be poisonous actually being edible increasing than the origina full features, it still remained high.
+     
+      - But Naive Bayes:
+        ![Screenshot 2025-05-02 142033](https://github.com/user-attachments/assets/fdfa1cbe-78a3-4208-8da5-e641e7b6b456)
+      - The scores are all down compared to when there was a full set of features. 
+        ![Screenshot 2025-05-02 142051](https://github.com/user-attachments/assets/1102b658-d40d-49f4-82e4-9ca3992f6823)
+       - This shows the increase the amount of incorrectly chosen edible mushrooms in the 
+         testing, a sign of how overly cautious the model was getting
  
   Conclusions
   - Random Forest proved to be a highly effective classifier for this particular dataset.
-  - Even after features were removed, the accuracy score still remained high (perhaps indicating 
+  - Even after features were removed, the accuracy score still remained high (perhaps 
+    indicating 
     some reduancy in the data.
   - Naive Bayes performed well at first but was not as consistent or accurate as Random Forest.
-  - Overall, these two models proved that the model was at least being cautious as to predicting 
+  - Overall, these two models proved that the model was at least being cautious as to 
+    predicting 
     whether or not a mushroom was edible or poisonous.
  
 
@@ -106,16 +118,26 @@ Our best model was Random Forest with all features included, achieving a classif
   - Open using Google Colab or Jupyter Notebook
   - Ensure you are running the required packages (skikit-learn, pandas, matplotlib).
   - Load the dataset: mushrooms.csv
-  - preproccessing ?
+  - preproccessing: encode target variable - class and gill-size and one hot encode the rest of    the features. One could also drop the selected features like odor_n, gill_size, and odor_f 
+   to see changes to the models. Split the dataset into training (60%), validation (20%), and
+   test (20%). 
  
   Overview of File in Repository
-  ?
-
+  - Kaggle Tabular Data Challenge - The complete notebook including data preprocessing, feature 
+    encoding, model training (Random Forest and Naive Bayes), feature importance analysis, 
+    performance evaluation, and final prediction 
   Software Setup
   - pandas
   - numpy
   - matplotlib
-  - skikit-learn
- ? 
+  - skikit-learn:
+     - model_selection
+     - naive_bayes
+     - preprocessing
+     - metrics
+     - metrics.ConfusionMatrixDisplay
+ 
   Citations
   - https://www.kaggle.com/datasets/uciml/mushroom-classification
+  - https://scikit-learn.org/stable/
+  - https://matplotlib.org/stable/contents.html
