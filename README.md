@@ -34,9 +34,11 @@ Our best model was Random Forest with all features included, achieving a classif
 ![Screenshot 2025-05-02 133302](https://github.com/user-attachments/assets/672ba74e-c439-43e3-9460-e0943fddd0bd)
 ![Screenshot 2025-05-02 133343](https://github.com/user-attachments/assets/d522524f-f03f-4af0-80ba-6a7e36592430)
 
-
+  - Each feature has there distriution in relation to either being edible or poisonous using 
+  histograms across individual feature values. These were selected based on their initital 
+  visual insights and later used in machine learning. 
   Problem Formulation 
-  - Input:?
+  - Input: Features such as 
 
   Models 
   - ?
