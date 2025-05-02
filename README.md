@@ -70,29 +70,29 @@ Our best model was Random Forest with all features included, achieving a classif
   Performance Comparison
   -  The performances will be assessed using the Precision, Recall, F1-Score, and especially the Accuracy.
   -  Results for Random Forest (training, validation, and testing) 
-    ![Screenshot 2025-05-02 140253](https://github.com/user-attachments/assets/c584227e-1af1-4b4b-bb32-d4e9c25dcae4)
+     ![Screenshot 2025-05-02 140253](https://github.com/user-attachments/assets/c584227e-1af1-4b4b-bb32-d4e9c25dcae4)
      ![Screenshot 2025-05-02 140323](https://github.com/user-attachments/assets/3b960cc3-7fda-44b0-852d-7819b33cbbe5)
-      ![Screenshot 2025-05-02 140342](https://github.com/user-attachments/assets/fff4da7d-9b8a-47c3-bb3f-daf1d424335c)
-      ![Screenshot 2025-05-02 140420](https://github.com/user-attachments/assets/0038482c-a591-497e-a0f0-01b6ca196cd1)
+     ![Screenshot 2025-05-02 140342](https://github.com/user-attachments/assets/fff4da7d-9b8a-47c3-bb3f-daf1d424335c)
+     ![Screenshot 2025-05-02 140420](https://github.com/user-attachments/assets/0038482c-a591-497e-a0f0-01b6ca196cd1)
       - The graphs are very accurate
    - Results for Naive Bayes
      ![Screenshot 2025-05-02 141054](https://github.com/user-attachments/assets/e209299a-f2dd-46f2-aad0-476acdfe275c)
      ![Screenshot 2025-05-02 141110](https://github.com/user-attachments/assets/0b54fa9a-1f06-46af-9e18-35eb17adf7f3)
-      ![Screenshot 2025-05-02 141122](https://github.com/user-attachments/assets/15010a19-b813-483f-9604-b8501857d5be)
-      ![Screenshot 2025-05-02 141212](https://github.com/user-attachments/assets/9ce094cc-68f1-4d5a-86ae-d48a140cc955)
+     ![Screenshot 2025-05-02 141122](https://github.com/user-attachments/assets/15010a19-b813-483f-9604-b8501857d5be)
+     ![Screenshot 2025-05-02 141212](https://github.com/user-attachments/assets/9ce094cc-68f1-4d5a-86ae-d48a140cc955)
      - The graphs were both very accurate, which raised concerns. The features used had to be evaluated again to make sure some were not causing heavy bias. These were the results
-       ![Screenshot 2025-05-02 141514](https://github.com/user-attachments/assets/f1e2960d-9240-4bac-8070-3be264ed947c)
+     ![Screenshot 2025-05-02 141514](https://github.com/user-attachments/assets/f1e2960d-9240-4bac-8070-3be264ed947c)
     - odor_n, gill-size, odor_f were really high in featuer importance compared to others, so 
      they were dropped and the models were revaluated after.
     - The results of the Random Forest were near the same:
-      ![Screenshot 2025-05-02 141844](https://github.com/user-attachments/assets/53e571ad-3d1f-4b26-a697-98adbfc29e6f)
-      ![Screenshot 2025-05-02 141940](https://github.com/user-attachments/assets/8e01a8b3-860f-437f-bfbc-532cd374c2d5)
+     ![Screenshot 2025-05-02 141844](https://github.com/user-attachments/assets/53e571ad-3d1f-4b26-a697-98adbfc29e6f)
+     ![Screenshot 2025-05-02 141940](https://github.com/user-attachments/assets/8e01a8b3-860f-437f-bfbc-532cd374c2d5)
       - Other than the mushrooms it predicted to be poisonous actually being edible increasing than the origina full features, it still remained high.
      
       - But Naive Bayes:
-        ![Screenshot 2025-05-02 142033](https://github.com/user-attachments/assets/fdfa1cbe-78a3-4208-8da5-e641e7b6b456)
+      ![Screenshot 2025-05-02 142033](https://github.com/user-attachments/assets/fdfa1cbe-78a3-4208-8da5-e641e7b6b456)
       - The scores are all down compared to when there was a full set of features. 
-        ![Screenshot 2025-05-02 142051](https://github.com/user-attachments/assets/1102b658-d40d-49f4-82e4-9ca3992f6823)
+      ![Screenshot 2025-05-02 142051](https://github.com/user-attachments/assets/1102b658-d40d-49f4-82e4-9ca3992f6823)
        - This shows the increase the amount of incorrectly chosen edible mushrooms in the 
          testing, a sign of how overly cautious the model was getting
  
